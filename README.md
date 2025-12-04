@@ -1,16 +1,29 @@
+## General info
+<details>
+<summary>Click here to see general information about <b>Project</b>!</summary>
+<b>Lorem ipsum</b>. Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
+</details>
+
+
+
 # Python-podstawy-rozwiazane-zadania
 Zadania z studiów podyplomowych
 
 
 Zbiór zadań A
 Karol Piotr Kolański
+
 Zadanie 1
 Napisz program suma.py, który wyświetli sumę dwóch liczb podanych przez użytkownika.
+
 Zadanie 2
 Napisz program zawierający funkcję zwracającą silnię liczby podanej jako argument.
 Wskazówka: Policz silnię iteracyjnie
+
 Zadanie 3
 Napisz program liczący silnię rekurencyjnie.
+
 Zadanie 4
 Napisz program rysujący choinkę o zadanej wysokości:
 
@@ -24,6 +37,7 @@ Napisz program rysujący choinkę o zadanej wysokości:
       ***************
 Zadanie 5
 Napisz program sprawdzający, czy podana liczba jest liczbą pierwszą.
+
 Zadanie 6
 Napisz program sprawdzający, czy podane słowo jest palindromem.
 
