@@ -1,17 +1,8 @@
-## General info
-<details>
-<summary>Click here to see general information about <b>Project</b>!</summary>
-<b>Lorem ipsum</b>. Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
-ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
-</details>
-
-
-
-# Python-podstawy-rozwiazane-zadania
+## Python-podstawy-rozwiazane-zadania
 Zadania z studiów podyplomowych
 
 
-<b>Zbiór zadań A</b>
+##  <b>Zbiór zadań A</b>
 
 
 <b>Zadanie 1</b>
@@ -48,7 +39,7 @@ Napisz program sprawdzający, czy podana liczba jest liczbą pierwszą.
 Napisz program sprawdzający, czy podane słowo jest palindromem.
 
 
-<b>Zbiór zadań B</b>
+## <b>Zbiór zadań B</b>
 
 
 <b>Zadanie 1</b>
