@@ -14,5 +14,5 @@ def dodaj_liczby():
     # Zwróć wynik (jeśli chcesz go użyć później)
     return suma
 
-# Wywołanie funkcji
+    # Wywołanie funkcji
 dodaj_liczby()
