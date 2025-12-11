@@ -1,15 +1,8 @@
-# Zadanie 6
-# Napisz program sprawdzający, czy podane słowo jest palindromem.
-
-def palindrom():
-    slowo = input("Podaj słowo: ")
-    slowo = slowo.lower()
-    reversed_word = slowo[::-1]
-
-    if slowo == reversed_word:
-        print("To jest palindrom!")
-    else:
-        print("To nie jest palindrom.")
-
-
-palindrom()
+# Zadanie 12
+# Napisz program przyjmujący ciąg znaków i obliczający ile jest w nim liter,
+# a ile liczb
+# Przykładowe wejście :
+# hello world! 123
+# Wyjście :
+# LITERY 10
+# CYFRY 3

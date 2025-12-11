@@ -1,15 +1,13 @@
-# Zadanie 6
-# Napisz program sprawdzający, czy podane słowo jest palindromem.
-
-def palindrom():
-    slowo = input("Podaj słowo: ")
-    slowo = slowo.lower()
-    reversed_word = slowo[::-1]
-
-    if slowo == reversed_word:
-        print("To jest palindrom!")
-    else:
-        print("To nie jest palindrom.")
-
-
-palindrom()
+# Zadanie 13
+# Napisz program obliczający saldo na koncie na bazie logów z
+# bankomatu.
+# Format logów:
+# + 100
+# - 200
+# Przykładowe wejście :
+# + 300
+# + 300
+# - 200
+# + 100
+# Wyjście :
+# 500

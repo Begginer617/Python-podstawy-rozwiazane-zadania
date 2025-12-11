@@ -1,15 +1,17 @@
-# Zadanie 6
-# Napisz program sprawdzający, czy podane słowo jest palindromem.
+# Zadanie 14
+# Robot porusza się po płaszczyźnie począwszy od punktu (0,0). Może się
+# on poruszać do góry, na dół, w lewo oraz w prawo dla podanej liczby
+# kroków.
+# Napisz program obliczający odległość od punktu (0,0) po wykonaniu
+# sekwencji kroków podanych z klawiatury. Program powinien zwracać
+# liczbę całkowitą (zaokrągloną).
+# Przykładowe wejście :
+# UP 5
+# DOWN 3
+# LEFT 3
+# RIGHT 2
+# (cyfry za kierunkiem oznaczają liczbę kroków)
+# Wyjście :
+# 2
 
-def palindrom():
-    slowo = input("Podaj słowo: ")
-    slowo = slowo.lower()
-    reversed_word = slowo[::-1]
 
-    if slowo == reversed_word:
-        print("To jest palindrom!")
-    else:
-        print("To nie jest palindrom.")
-
-
-palindrom()
