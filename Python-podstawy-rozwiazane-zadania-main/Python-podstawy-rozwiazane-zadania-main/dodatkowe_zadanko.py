@@ -1,4 +1,4 @@
-def cwiczenie():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
+def cwiczenie1():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
 
     # TU ROZPOCZNIJ KODOWAĆ
     # Samochód na 100 km spala 8 l paliwa.
@@ -11,29 +11,59 @@ def cwiczenie():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
     wynik = (dystans_do_zrobienia * zuzycie_paliwa_na_100) / dystans_100km
 
     return round(wynik, 2)  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMYM DOLE
-print(cwiczenie())
+print(cwiczenie1())
 
 
-def cwiczenie():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
+def cwiczenie2():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
+
+    bok_figury_geom = 5
+    a, b, c = 5, 4, 4  # suma = 13
+
+    # Pole kwadratu
+    poleKwadratu = bok_figury_geom ** 2
+
+    # Obwód trójkąta
+    obwodTrojkata = a + b + c
+
+    # Pole koła: π = 3.14, promień = 3
+    pi = 3.14
+    promien = 3
+    poleKola = pi * (promien ** 2)
+
+    # Pole trójkąta: (podstawa * wysokość) / 2 -> 5 * 21 / 2 = 52.5
+    podstawa = bok_figury_geom
+    wysokosc = 21
+    poleTrojkata = (podstawa * wysokosc) / 2
+
+    return (round(poleKwadratu, 2),
+            round(obwodTrojkata, 2),
+            round(poleKola, 2),
+            round(poleTrojkata, 2))
+print(cwiczenie2())
+
+
+def cwiczenie3():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
 
     # TU ROZPOCZNIJ KODOWAĆ
 
-    bok_figury_geom = int(input("Podaj bok: "))
-    print(bok_kwadratu)
-    a = int(input("Podaj bok a: "))
-    b = int(input("Podaj bok b: "))
-    c = int(input("Podaj bok c: "))
-    print("Długości trójkąta:", a, b, c)
+    cena_chleb = float(1.99)
+    cena_mleka = float(2.50)
+    cena_sok = float(6.45)
+    cena_cukierkow = float(10.25)
 
-    poleKwadratu = bok_kwadratu ** 2
-    print(poleKwadratu)
+    # Zamówienie to:
 
-    obwodTrojkata = (a + b + c)
-    print(obwodTrojkata)
-    poleKola =
-    poleTrojkata =
+    #     5 szt. chleba
+    #     0.5 l. mleka
+    #     7 l. soku
+    #     5 kg. cukierków
 
-    return (round(poleKwadratu, 2), round(obwodTrojkata, 2), round(poleKola, 2),
-            round(poleTrojkata, 2))  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMYM DOLE
-    print
-    cwiczenie()
+    zamowienie_chleb = cena_chleb * 5
+    zamowienie_mleka = cena_mleka * 0.5
+    zamowienie_soku = cena_sok * 7
+    zamowienie_cukierkow = cena_cukierkow * 5
+
+    wynik = zamowienie_cukierkow + zamowienie_soku + zamowienie_chleb + zamowienie_mleka
+
+    return round(wynik, 2)  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMYM DOLE
+print(cwiczenie3())
