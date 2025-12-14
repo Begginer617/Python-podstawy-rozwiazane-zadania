@@ -14,7 +14,7 @@
 #
 # zadanie_1_B()
 
-
+#wersja z warunkiem na true
 def zadanie_1_B():
     while True:
         wejscie = input("Podaj dokładnie 5 liczb oddzielonych przecinkami: ")
