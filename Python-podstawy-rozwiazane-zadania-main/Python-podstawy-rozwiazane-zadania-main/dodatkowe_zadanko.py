@@ -95,3 +95,19 @@ def cwiczenie4():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
 
 cwiczenie4()
 print(cwiczenie4())
+
+
+# def cwiczenie5():  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMEJ GÓRZE
+#
+#     # TU ROZPOCZNIJ KODOWAĆ
+#
+#     liczba_usera = int(input("podaj liczbe do spotegowania"))
+#     potega = int(input("Do jakiej potęgi chcesz ją podnieść? "))
+#
+#     print(liczba_usera)
+#     print(potega)
+#
+#     wynik = (liczba_usera ** potega)
+#
+#     return wynik  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMYM DOLE
+#     print5(cwiczenie)
