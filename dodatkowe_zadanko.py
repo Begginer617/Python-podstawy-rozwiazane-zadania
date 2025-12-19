@@ -188,7 +188,7 @@
 #     return wynik  # TEGO NIE ZMIENIAJ, TO MUSI BYĆ NA SAMYM DOLE
 from itertools import count
 
-#petle
+# petle
 
 # for i in range(2):
 #     input( f"{i} + podaj imie: "" ")
@@ -196,13 +196,80 @@ from itertools import count
 # for i in range(2):
 #         print("a")
 
-for i in range(5):
-        print("a")
+# for i in range(5):
+#         print("a")
+#
+# for i in range(3,10): #print bedzie od 3 do 9 bo 0 tez liczy
+#         print("a")
+#
+# for i in range(3,11): #print bedzie od 3 do 10 bo 11 nie wskoczy
+#         print("a")
+#
+# for i in range(1,1): #pusty przedział
+#         print("a")
 
-for i in range(3,10): #print bedzie od 3 do 9 bo 0 tez liczy
-        print("a")
+
+# listy
+
+# dane = ["a", "b", 23, "vd4", "sd", "ee", "ff", "gg", "hh"]
+#
+# for index, value in enumerate(dane):
+#     print(index, value)
+#     dane.pop(1)       pop usuwa po indeksie
+#     print(dane)
 
 
-for i in range(1,1): #pusty przedział
-        print("a")
+# dane = ["a", "b", 23, "vd4", "sd", "ee", "ff", "gg", "hh", "23"]
+#
+# for index, value in enumerate(dane):
+#     print(index, value)
+#     remove.("23")       pop usuwa po wartosci. Ale usuwa 1 napotkana wartosc.
+#     print(dane)
 
+# #enumerate(dane) „zapamiętuje” sobie kolejne elementy listy w momencie startu pętli.
+# Ty w środku pętli modyfikujesz tę samą listę, więc to, co widzisz na ekranie, jest mieszanką:
+# - index, value – idzie po oryginalnej kolejności,
+# - print(dane) – pokazuje listę już po usunięciu elementu.
+# Przejdźmy to krok po kroku.
+
+
+# Kopiowanie listy ;)
+# a = [1, 2, 3]
+# b = a[:]   # kopia
+#
+# b.append(4)
+#
+# print(a)  # [1, 2, 3]
+# print(b)  # [1, 2, 3, 4]
+# a się nie zmieniło — bo b to kopia.
+
+# Kiedy tego używać?
+# Gdy chcesz:
+# - iterować po kopii listy, a modyfikować oryginał
+# - zrobić płytką kopię listy
+# - uniknąć błędów typu „modyfikuję listę podczas pętli”
+#
+# ✅ Uwaga: to jest płytka kopia
+# Jeśli lista zawiera listy, to one nie są kopiowane głęboko.
+
+
+# ista z wykorzystaniem instrukcji warunkowej IF
+# dane = ["a", "b", 23, "vd4", "sd", "ee", "ff", "gg", "hh", "23"]
+#
+# if ("23" in dane):
+#     print("jest")
+# else:
+#     print("ni ma")
+
+
+# KROTKA sa niemodyfkowalne.
+
+# nawiasy kdwadratowr sa dla list.
+# nawiasy okragłe sa dla krotek.
+
+# Krotka (tuple) w Pythonie to uporządkowana, niemodyfikowalna (niezmienna) kolekcja elementów,
+# podobna do listy, ale po utworzeniu jej
+# zawartości nie da się zmieniać, co czyni ją idealną do stałych danych,
+
+tuple=("ania", 12, "kasia")
+print(tuple)
