@@ -271,5 +271,132 @@ from itertools import count
 # podobna do listy, ale po utworzeniu jej
 # zawartości nie da się zmieniać, co czyni ją idealną do stałych danych,
 
-tuple=("ania", 12, "kasia")
-print(tuple)
+# tuple = ("ania", 12, "kasia")
+# print(tuple)
+#
+# for i, value in enumerate(tuple):
+#     print(i, value)
+
+
+# SŁOWNIKI (dict)
+# https://www.algorytm.edu.pl/slowniki-w-python
+
+# lista = [1, 2, 3] # tworzymy listę
+# print(lista[0], lista[1], lista[2]) # wypisujemy elementy listy odwołując się poprzez indeksy: 0, 1 i 2.
+
+# Tworzenie, dodawanie i wypisywanie elementów słownika
+
+# slownik = {} # utworzenie słownika
+#
+# # utworzenie trzech elementów słownika
+
+# slownik["adam"] = 3 # klucz: adam, wartość: 3
+# slownik["iwona"] = 3.2
+# slownik[122] = "monika" # klucz: 122, wartość: monika
+#
+# # wypisanie całego słownika
+# print(slownik) # {'adam': 3, 'iwona': 3.2, 122: 'monika'}
+#
+# # wypisanie kluczy i wartości
+# for klucz, wartosc in slownik.items():
+#     print(klucz, wartosc)
+# """
+# adam 3
+# iwona 3.2
+# 122 monika
+# """
+#
+# # wypisanie samych klucz
+# for klucz in slownik:
+#     print(klucz)
+# """
+# adam
+# iwona
+# 122
+# """
+#
+# #wypisanie samych wartości
+# for wartosc in slownik.values():
+#     print(wartosc)
+# """
+# 3
+# 3.2
+# monika
+# """
+
+# drugi sposob inicjacji wartosci słownika
+
+# tworznie słownika wraz z wpisaniem trzech elementów
+# slownik = {"adam": 3, "iwona":3.2, 122: "monika"}
+#
+# print(slownik["adam"]) # 3
+# print(slownik[122]) # monika
+# # print(slownik["ala ma kota"]) błąd, taki klucz nie istnieje
+
+# Sortowanie elementów słownika po kluczu
+# Domyślnie elementy słownika nie są sortowane, jak to czasami bywa w tablicach asocjacyjnych w innych językach. Aby uporządkować elementy słownika należy użyć funkcji sorted, która zwróci posortowaną listę krotek zawierających pary klucz-wartość:
+#
+# # tworznie słownika wraz z wpisaniem trzech elementów
+# slownik = {"kamil": 3, "iwona":3.2, "andrzej": 2}
+#
+# #sortowanie elementów słownika po kluczu
+# posortowany_slownik = sorted(slownik.items())
+#
+# print(posortowany_slownik) # [('andrzej', 2), ('iwona', 3.2), ('kamil', 3)]
+# Sortowanie elementów słownika po wartości
+# Aby posortować elementy słownika według wartości, możesz użyć funkcji sorted() w połączeniu z parametrem key, który określa funkcję klucza sortującego. Możesz użyć key=lambda x: x[1], aby sortować po drugim elemencie (wartości) w parach klucz-wartość.
+#
+# # tworznie słownika wraz z wpisaniem trzech elementów
+# slownik = {"kamil": 3, "iwona":3.2, "andrzej": 2}
+#
+# #sortowanie elementów po wartości
+# posortowany_slownik = sorted(slownik.items(), key=lambda x: x[1])
+#
+# print(posortowany_slownik) # [('andrzej', 2), ('kamil', 3), ('iwona', 3.2)]
+
+
+#  { } — słowniki (dict) i zbiory (set)
+# - Najczęściej: słowniki, czyli pary klucz–wartość
+
+# {"imie": "Milosz", "wiek": 25}
+
+# - Mogą też oznaczać zbiory, ale tylko jeśli nie ma par klucz–wartość:
+# {1, 2, 3}
+# - Uwaga: pusty {} to zawsze słownik, nie zbiór.
+# Pusty zbiór robisz tak:
+# set()
+#
+#
+#
+# 🔸 ( ) — krotki (tuple)
+# - Krotka to niezmienna sekwencja wartości:
+# (1, 2, 3)
+# - Ciekawostka: krotka jednoelementowa musi mieć przecinek:
+# (5,)   # to tuple
+# (5)    # to tylko liczba 5
+#
+#
+#
+# 🔸 [ ] — listy (list)
+# - Listy to sekwencje, które można modyfikować:
+# [1, 2, 3]
+# - Najczęściej używany typ kolekcji w Pythonie.
+#
+# Podsumowanie w tabeli
+
+# { } dict/set {"a": 1}{1, 2, 3}
+# ( ) tuple (1, 2, 3) |
+# [ ] list [1, 2, 3] |
+# #
+#
+#
+# Jeśli chcesz, mogę Ci też pokazać różnice między listą, krotką i zbiorem w praktyce — np. co jest szybsze, co się do czego nadaje.
+
+
+# Czy słownik może mieć „więcej wartości w kluczu”?
+# Nie, jeden klucz może mieć tylko jedną wartość przypisaną bezpośrednio.
+# Ale…
+# Ta jedna wartość może być czymkolwiek — listą, krotką, słownikiem, zbiorem, obiektem.
+# Czyli możesz „opakować” wiele wartości w jedną strukturę.
+
+
