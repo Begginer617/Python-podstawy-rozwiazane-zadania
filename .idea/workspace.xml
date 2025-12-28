@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6692e193-900e-496a-bca5-881a09311d9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad12_listaB .py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad12_listaB .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad13_listaB .py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad13_listaB .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad14_listaB .py" beforeDir="false" afterPath="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad14_listaB .py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,7 @@
     "Python.Udemy_Python_Kurs.executor": "Run",
     "Python.script.executor": "Run",
     "Python.zad12_listaB .executor": "Run",
+    "Python.zad13_listaB .executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "git-widget-placeholder": "main",
@@ -59,7 +61,7 @@
       <recent name="D:\udemy cwiczenia python" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.zad12_listaB ">
+  <component name="RunManager" selected="Python.zad13_listaB ">
     <configuration name="Udemy_Python_Kurs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyCharmMiscProject" />
       <option name="ENV_FILES" value="" />
@@ -128,8 +130,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="zad13_listaB " type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-podstawy-rozwiazane-zadania-main" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/Python-podstawy-rozwiazane-zadania-main/zad13_listaB .py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zad13_listaB " />
         <item itemvalue="Python.zad12_listaB " />
         <item itemvalue="Python.Udemy_Python_Kurs" />
       </list>
