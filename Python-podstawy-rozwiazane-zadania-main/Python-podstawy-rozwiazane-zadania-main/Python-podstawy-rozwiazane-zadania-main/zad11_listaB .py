@@ -22,9 +22,9 @@ def zadanie11B():
 
     tablica = []
     for i in range(x):
-        wiersz = []  # ← musi być tutaj!,  inaczej wszystkie wiersze w tablicy będą takie same, jak sie je da pod tablica bezpośrednio.
+        wiersz = []  # ← musi być tutaj!,  inaczej wszystkie wiersze w tablicy będą takie same, jak sie je da pod tablica bezpośrednio.twrzy sir w tym bloku nowa lista.
         for j in range(y):
-            wiersz.append(i * j)
+            wiersz.append(i * j) # dodaje sie tutaj do listy wiersz iloczyn wartosci "i" i "j"
         tablica.append(wiersz)
 
 zadanie11B()
