@@ -8,4 +8,23 @@
 # Wyjście :
 # [[0, 0, 0, 0, 0], [0, 1, 2, 3, 4], [0, 2, 4, 6, 8]]
 
+def zadanie11B():
+    x = int(input())
+    y = int(input())
 
+    # Tworzymy pustą listę, do której będziemy dodawać kolejne wiersze
+    tablica = []
+
+    # for i in range(x):
+    # Zaczynamy tworzyć liste pt. wiersze.
+    # Pętla wykona się x razy — czyli powstanie x wierszy. Przykład: jeśli x = 3, to i będzie
+    # kolejno: 0, 1, 2.
+
+    tablica = []
+    for i in range(x):
+        wiersz = []  # ← musi być tutaj!,  inaczej wszystkie wiersze w tablicy będą takie same, jak sie je da pod tablica bezpośrednio.
+        for j in range(y):
+            wiersz.append(i * j)
+        tablica.append(wiersz)
+
+zadanie11B()
